@@ -38,14 +38,16 @@
     width: 343px;
   }
 
-  .season {
+  .season,
+  .word {
     flex-direction: column;
     padding-top: 51px;
     padding-bottom: 85px;
     gap: 64px;
 
   }
-  .season__content {
+  .season__content,
+  .word__content {
     width: 343px;
     align-items: center;
 
@@ -60,7 +62,8 @@
     line-height: 22px;
   }
   
-  .season__img {
+  .season__img,
+  .word__img {
     width: 344px;
     height: 236px;
   }
