@@ -115,7 +115,8 @@ a {
   background: #000915;
 }
 
-.season {
+.season,
+.word {
   display: flex;
   justify-content: space-between;
   padding-top: 234px;
@@ -123,7 +124,12 @@ a {
   align-items: center;
 }
 
-.season__content {
+.word {
+  flex-direction: row-reverse;
+}
+
+.season__content,
+.word__content {
   width: 584px;
   display: flex;
   gap: 32px;
@@ -175,13 +181,15 @@ a {
   .games__box-wrapper {
     width: 343px;
   }
-  .season {
+  .season,
+  .word {
     flex-direction: column;
     padding-top: 51px;
     padding-bottom: 85px;
     gap: 64px;
   }
-  .season__content {
+  .season__content,
+  .word__content {
     width: 343px;
     align-items: center;
   }
@@ -194,7 +202,8 @@ a {
     font-size: 14px;
     line-height: 22px;
   }
-  .season__img {
+  .season__img,
+  .word__img {
     width: 344px;
     height: 236px;
   }
